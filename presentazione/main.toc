@@ -1,0 +1,5 @@
+\beamer@sectionintoc {1}{Introduzione \& Obiettivo}{8}{0}{1}
+\beamer@sectionintoc {2}{Analisi del Dataset}{10}{0}{2}
+\beamer@sectionintoc {3}{Approccio Scelto}{14}{0}{3}
+\beamer@sectionintoc {4}{Esperimenti \& Risultati}{20}{0}{4}
+\beamer@sectionintoc {5}{Conclusioni}{24}{0}{5}
