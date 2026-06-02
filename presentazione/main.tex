@@ -421,7 +421,7 @@
 				\item Conv2D \textbf{5$\times$5} (solo primo blocco),
 				\textbf{3$\times$3} nei successivi + ReLU (''estrazione'' pattern dalle immagini che verrano usati come feture)
 				\item Batch Normalization
-				\item MaxPooling (per riduzione dimensinalita dell'immagine)
+				\item MaxPooling (per riduzione dimensionalita dell'immagine)
 			\end{itemize}
 		\end{block}
 
@@ -526,12 +526,13 @@
         \renewcommand{\arraystretch}{1.25}
         \begin{tabular}{lcccc}
             \toprule
-            \textbf{Modello} & \textbf{Avg Test Acc(\%)} & \textbf{Test Acc (\%)}
-            & \textbf{Parametri} & \textbf{Epoche}\\
+            \textbf{Modello} & \textbf{Avg Val Acc (\%)} & \textbf{Avg Val Loss}
+            & \textbf{Test Acc (\%)} & \textbf{Epoche}\\
             \midrule
-            \textbf{CNN Custom}        & -- & -- & $\sim$-- & -- \\
-            Bagging (5 checkpoint)   & -- & -- & $\sim$-- & -- \\
-            ResNet-50 Fine Tuning & -- & -- & $\sim$-- & -- \\
+            \textbf{CNN Custom}        & 79.1\% & 0.53 & 79.4\% & $\sim$40 \\
+            \textbf{CNN Custom + Augmentation}        & 81.7\% & 0.42 & 82.9\% & $\sim$50 \\
+            Bagging (5 checkpoint)   & -- & -- & 86.1\% & -- \\
+            ResNet-50 Fine Tuning & 90\% & 0.25 & 90.6\% & 20 \\
             \bottomrule
         \end{tabular}
     \end{adjustbox}
@@ -545,7 +546,7 @@
 
     \begin{itemize}
         \item<1-> \textbf{Augmentation} porta un guadagno consistente
-        (--\%) riducendo l'overfitting.
+        ($\sim$2\%) riducendo l'overfitting.
         \item<2-> \textbf{ResNet-50} sfrutta feature pre-apprese su
         ImageNet, dominando nettamente sul modello custom.
     \end{itemize}
@@ -565,14 +566,14 @@
     \onslide<2->{
         \begin{block}{CNN Custom}
             La rete progettata da zero, con data augmentation e
-            bagging, raggiunge circa \alert{--\% di accuracy},
+            bagging, raggiunge circa \alert{86\% di accuracy},
             mostrando buona generalizzazione per un dataset limitato.
         \end{block}
     }
     \vspace{0.15cm}
     \onslide<3->{
         \begin{block}{Fine Tuning ResNet-50}
-            Il transfer learning su ResNet-50 raggiunge \alert{--\%}
+            Il transfer learning su ResNet-50 raggiunge \alert{90\%}
             di test accuracy, confermando l'efficacia del riutilizzo
             di feature pre-addestrate su ImageNet.
         \end{block}
