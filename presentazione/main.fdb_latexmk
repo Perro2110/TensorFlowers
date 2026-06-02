@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1780333563.58983 "/Users/perry/aliceasfellosa/TensorFlowers/presentazione/main.tex" "main.pdf" "main" 1780333566.26718 0
-  "/Users/perry/aliceasfellosa/TensorFlowers/presentazione/main.tex" 1780333563.3195 20356 07b308e640c271f45b08af471bcb05e6 ""
+["pdflatex"] 1780407759.09493 "/Users/perry/aliceasfellosa/TensorFlowers/presentazione/main.tex" "main.pdf" "main" 1780407761.78584 0
+  "/Users/perry/aliceasfellosa/TensorFlowers/presentazione/main.tex" 1780407758.8472 20360 4f580fab07aca1373140e399b503084a ""
   "/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1136849721 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/tfm/jknappen/ec/tcrm0900.tfm" 1136768653 1536 c4f439db76ef96a9c53bc437f35ffe20 ""
@@ -285,10 +285,10 @@
   "fiore1.jpg" 1780325286.24691 38574 ce63d2fc0a67ecbf589345ba18e6d0c3 ""
   "fiore2.jpg" 1780325282.61451 42723 d27cc4c13b00df663d5fc238364a9546 ""
   "fiore3.jpg" 1780325278.43425 101358 9e7466ea4b0b1c5cefa8fed02b00d47f ""
-  "main.aux" 1780333566.11007 5698 26e4db3a19d8d4ce59e774c00772d1dc "pdflatex"
-  "main.nav" 1780333566.1116 2916 a727804030a93d86d461ccb002bd25e2 "pdflatex"
-  "main.out" 1780333566.11128 707 4779ea5cf74c3de56d502bbd3f25466e "pdflatex"
-  "main.tex" 1780333563.3195 20356 07b308e640c271f45b08af471bcb05e6 ""
+  "main.aux" 1780407761.63384 5698 26e4db3a19d8d4ce59e774c00772d1dc "pdflatex"
+  "main.nav" 1780407761.63561 2916 a727804030a93d86d461ccb002bd25e2 "pdflatex"
+  "main.out" 1780407761.63527 707 4779ea5cf74c3de56d502bbd3f25466e "pdflatex"
+  "main.tex" 1780407758.8472 20360 4f580fab07aca1373140e399b503084a ""
   "plot.png" 1780325711.00765 35499 2bfbdc5121f1fc36c0994b875babd88a ""
   "resnet.png" 1780327323.17412 88485 003e4131eec031962848ed6072f52980 ""
   "vggnet.png" 1780327260.0651 109481 d01f912384cdb1d24cd937b4efe647f7 ""
